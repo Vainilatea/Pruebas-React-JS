@@ -17,5 +17,6 @@ bootstrapping -> vite
 ----> react.dev -> learn -> build react from scratch
 https://react.dev/learn/build-a-react-app-from-scratch
 
+ http://localhost:5173/
 
 
