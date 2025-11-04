@@ -3,3 +3,12 @@ REACT JS - native para móvil
 
 https://github.com/davidcarvajalgarrido/react-basics/
 https://github.com/davidcarvajalgarrido/react-basics/blob/exercises-js/lessons/01-modern-javascript/exercises.md
+
+es una librería basada en javascript para desarrollo de apps webs front end
+javascript es una lenguaje de programación para front y back interpretado y débilmente tipado (para permitir operaciones entre valores)
+
+un lenguaje de programación es un conjunto de formal (con reglas de semántica y sintaxis)
+algoritmo - receta
+
+objetos: estructura de datos formada por parejas clave:valor
+bootstrapping -> vite
