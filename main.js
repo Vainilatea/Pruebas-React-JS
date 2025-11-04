@@ -93,6 +93,7 @@ console.log (typeof namePe)
 let victori = false
 console.log (typeof victori)
 
+
 let yaois = null
 console.log (typeof yaois)
 
@@ -152,10 +153,45 @@ console.log(obtenerLetra(45));
 /* 3.3*/
 
 function puedeAcceder(edad, cuentaActiva, estaBloqueado) {
-  
-}
+  if (edad > 18 && cuentaActiva == true && estaBloqueado == false) {
+    return("Puede acceder")
+  } else if (edad <= 18 && cuentaActiva == true && estaBloqueado == false) {
+    return("menor de edad")
+  } else if (edad > 18 && cuentaActiva == false && estaBloqueado == false) {
+    return("cuenta inactiva")
+  } else if (edad > 18 && cuentaActiva == true && estaBloqueado == true) {
+    return("esta bloqueado")
+  } else {
+    return("?")
+}}
 
 console.log(puedeAcceder(20, true, false));   // true
 console.log(puedeAcceder(17, true, false));   // false (menor de edad)
 console.log(puedeAcceder(25, false, false));  // false (cuenta inactiva)
 console.log(puedeAcceder(30, true, true));    // false (está bloqueado)
+
+/* 4.1 */
+
+function contarHastaDiez() {
+  let i = 1;
+  while (i < 11) {
+    console.log (i)
+    i = i + 1
+}}
+contarHastaDiez()
+
+/*4.2 ------------------------------------------------*/
+
+function sumaAcumulativa(limite) {
+  let suma = 0;
+
+  suma = (limite * (limite + 1))/2
+              
+  return suma;
+}
+
+console.log(sumaAcumulativa(5));   // 15 (1+2+3+4+5)
+console.log(sumaAcumulativa(10));  // 55 (1+2+3+...+10)
+
+/* ej 4.3 */
+
