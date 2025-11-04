@@ -18,5 +18,7 @@ bootstrapping -> vite
 https://react.dev/learn/build-a-react-app-from-scratch
 
  http://localhost:5173/
+--host to expose
+h + enter to show help
 
 
