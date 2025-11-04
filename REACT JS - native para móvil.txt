@@ -1,5 +1,6 @@
 REACT JS - native para móvil
 
+https://www.w3schools.com/js/js_function_definition.asp
 
 https://github.com/davidcarvajalgarrido/react-basics/
 https://github.com/davidcarvajalgarrido/react-basics/blob/exercises-js/lessons/01-modern-javascript/exercises.md
@@ -12,3 +13,9 @@ algoritmo - receta
 
 objetos: estructura de datos formada por parejas clave:valor
 bootstrapping -> vite
+
+----> react.dev -> learn -> build react from scratch
+https://react.dev/learn/build-a-react-app-from-scratch
+
+
+
