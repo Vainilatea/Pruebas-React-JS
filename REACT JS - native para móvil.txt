@@ -22,3 +22,5 @@ https://react.dev/learn/build-a-react-app-from-scratch
 h + enter to show help
 
 //npm run dev
+
+node package manager
